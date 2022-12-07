@@ -1,0 +1,149 @@
+body {
+    margin: 0
+}
+
+header {
+    width: 100vw;
+}
+
+.logo_name {
+    background-color: red;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+}
+
+.logo_name h2 {
+    position: relative;
+    top: 2vh;
+    left: 40vw;
+    border: 0.5vh solid white;
+    border-radius: 100px;
+    height: 4vh;
+    width: 15vw;
+    text-align: center;
+    padding: 0.25vh;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 900;
+    margin: 0;
+}
+
+.logo_foto {
+    height: 50vh;
+    width: 100%;
+    display: block;
+}
+
+.logo_foto img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+nav {
+    height: 15vh;
+    background-color: rgba(128, 128, 128, 0.288);
+}
+
+
+ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+ul li {
+    list-style-type: none;
+    margin: 3vw;
+    padding: 3vw;
+    font-size: 4vh;
+}
+
+
+ul li:hover {
+    color: red;
+}
+
+
+
+h1 {
+    color: red;
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+
+
+.content {
+    display: block;
+    line-height: 2em;
+    font-size: 3vh;
+    height: 100%;
+    padding-left: 2vw;
+}
+
+.screens {
+    margin: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.screens img {
+    width: 30%;
+    height: 100%;
+}
+
+
+.advertisment {
+    background-color: rgba(128, 128, 128, 0.288);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+h2,
+p {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+
+.input_text {
+
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    width: 20vw;
+}
+
+
+footer {
+    color: white;
+    height: 10vh;
+    background-color: red;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+h3 {
+    text-align: center;
+}
+
+.label_footer {
+    margin-left: 40vw;
+    width: 10vh;
+}
+
+.input_footer {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40vw;
+    width: 10vw;
+}
